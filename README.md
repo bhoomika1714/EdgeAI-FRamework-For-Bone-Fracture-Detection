@@ -22,7 +22,7 @@ This project proposes a lightweight and edge-deployable **dual-stage deep learni
 
 ###  Architecture
 
-```mermaid
+```
 graph TD
     A[Input X-ray Image] --> B[MobileNetV3 Classifier]
     B -->|Fracture Detected| C[U-Net Segmenter]
